@@ -164,9 +164,10 @@ export ZSH_HIGHLIGHT_MAXLENGTH=60
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # Aliases
-alias vim='nvim'	# Alias for neovim
-alias c='clear'		# Alias for clear
-alias lg='lazygit'	# Alias for lazygit
+alias vim='nvim'    # Alias for neovim
+alias c='clear'		  # Alias for clear
+alias lg='lazygit'  # Alias for lazygit
+alias fd='fdfind'   # Alias for fdfind to find files
 
 
 # Shell integrations
