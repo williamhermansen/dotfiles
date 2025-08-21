@@ -4,6 +4,9 @@
 local keymap = vim.keymap
 local opts = { noremap = true, silent = true }
 
+-- Redo
+keymap.set("n", "<C-y>", ":redo<CR>", opts)
+
 -- Increment/decrement
 keymap.set("n", "+", "<C-a>")
 keymap.set("n", "-", "C-x")
@@ -19,7 +22,7 @@ keymap.set("n", "<C-m>", "<C-i>", opts)
 
 -- New tab
 keymap.set("n", "te", "tabedit", opts)
-keymap.set("n", "<tab>", ":tabnext<Returnn>", opts)
+keymap.set("n", "<tab>", ":tabnext<Return>", opts)
 keymap.set("n", "<s-tab>", ":tabprev<Return>", opts)
 
 -- Split window
