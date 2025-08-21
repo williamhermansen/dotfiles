@@ -165,9 +165,13 @@ export ZSH_HIGHLIGHT_MAXLENGTH=60
 
 # Aliases
 alias vim='nvim'    # Alias for neovim
+alias vi='nvim'     # Alias for neovim
 alias c='clear'		  # Alias for clear
+alias cls='clear'   # Alias for clear
 alias lg='lazygit'  # Alias for lazygit
 alias fd='fdfind'   # Alias for fdfind to find files
+alias thm='sudo openvpn ~/Tools/OpenVPN/TryHackMe.ovpn'  # Alias for connecting to TryHackMe OpenVPN
+alias hashi='python3 ~/Tools/hash-id.py'  # Alias for hash identifier
 
 
 # Shell integrations
