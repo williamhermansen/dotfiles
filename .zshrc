@@ -175,12 +175,15 @@ alias fd='fdfind'   # Alias for fdfind to find files
 # Aliases for CTFs
 alias thm='sudo openvpn ~/Tools/OpenVPN/TryHackMe.ovpn'  # Alias for connecting to TryHackMe OpenVPN
 alias hashi='python3 ~/Tools/hash-id.py'  # Alias for hash identifier
-alias wiz='python3 ~/Tools/SubnetWizard/main.py'  # Alias for SubnetWizard
-alias msf='msfconsole'  # Alias for Metasploit
 alias rs='rustscan'     # Alias for Rustscan
 alias php_filter_chain_generator='python3 ~/Tools/php_filter_chain_generator/php_filter_chain_generator.py' # Alias for PHP Filter Chain Generator
 alias sp='searchsploit' # Alias for Searchsploit
-alias hosts='sudo nvim /etc/hosts'  # Alias for editing /etc/hosts
+alias hosts='~/.addhost.sh'  # Alias for editing /etc/hosts
+
+# Aliases for Programs
+alias msf='msfconsole -q'  # Alias for Metasploit
+alias binaryninja='~/Tools/binaryninja/binaryninja'
+alias wiz='python3 ~/Tools/SubnetWizard/main.py'  # Alias for SubnetWizard
 
 
 # Shell integrations
