@@ -1,7 +1,6 @@
-# Run Fastfetch before instant prompt
-if [[ -o interactive ]]; then
-  fastfetch
-fi
+# Run fastfetch with a random config on startup
+fastfetch --config "$HOME/.config/fastfetch/configs/config$(( (RANDOM % 5) + 1 )).jsonc"
+
 #
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
