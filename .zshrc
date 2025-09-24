@@ -177,7 +177,7 @@ alias hashi='python3 ~/Tools/hash-id.py'  # Alias for hash identifier
 alias rs='rustscan'     # Alias for Rustscan
 alias php_filter_chain_generator='python3 ~/Tools/php_filter_chain_generator/php_filter_chain_generator.py' # Alias for PHP Filter Chain Generator
 alias sp='searchsploit' # Alias for Searchsploit
-alias hosts='~/.addhost.sh'  # Alias for editing /etc/hosts
+alias hosts='~/.scripts/.addhost.sh'  # Alias for editing /etc/hosts
 
 # Aliases for Programs
 alias msf='msfconsole -q'  # Alias for Metasploit
