@@ -1,5 +1,5 @@
 # Run fastfetch with a random config on startup
-fastfetch --config "$HOME/.config/fastfetch/configs/config$(( (RANDOM % 5) + 1 )).jsonc"
+fastfetch --config "$HOME/dotfiles/.config/fastfetch/configs/config$(( (RANDOM % 5) + 1 )).jsonc"
 
 #
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
@@ -172,17 +172,17 @@ alias lg='lazygit'  # Alias for lazygit
 alias fd='fdfind'   # Alias for fdfind to find files
 
 # Aliases for CTFs
-alias thm='sudo openvpn ~/Tools/OpenVPN/TryHackMe.ovpn'  # Alias for connecting to TryHackMe OpenVPN
-alias hashi='python3 ~/Tools/hash-id.py'  # Alias for hash identifier
+alias thm='sudo openvpn $HOME/Tools/OpenVPN/TryHackMe.ovpn'  # Alias for connecting to TryHackMe OpenVPN
+alias hashi='python3 $HOME/Tools/hash-id.py'  # Alias for hash identifier
 alias rs='rustscan'     # Alias for Rustscan
-alias php_filter_chain_generator='python3 ~/Tools/php_filter_chain_generator/php_filter_chain_generator.py' # Alias for PHP Filter Chain Generator
+alias php_filter_chain_generator='python3 $HOME/Tools/php_filter_chain_generator/php_filter_chain_generator.py' # Alias for PHP Filter Chain Generator
 alias sp='searchsploit' # Alias for Searchsploit
-alias hosts='~/.scripts/.addhost.sh'  # Alias for editing /etc/hosts
+alias hosts='$HOME/.scripts/.addhost.sh'  # Alias for editing /etc/hosts
 
 # Aliases for Programs
 alias msf='msfconsole -q'  # Alias for Metasploit
-alias binaryninja='~/Tools/binaryninja/binaryninja'
-alias wiz='python3 ~/Tools/SubnetWizard/main.py'  # Alias for SubnetWizard
+alias binaryninja='$HOME/Tools/binaryninja/binaryninja'
+alias wiz='python3 $HOME/Tools/SubnetWizard/main.py'  # Alias for SubnetWizard
 
 
 # Shell integrations
