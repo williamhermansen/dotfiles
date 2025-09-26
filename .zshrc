@@ -19,7 +19,7 @@ if [ ! -d "$ZINIT_HOME" ]; then
 	git clone https://github.com/zdharma-continuum/zinit.git "$ZINIT_HOME"
 fi
 
-# Sourc/Load Zinit
+# Source/Load Zinit
 source "${ZINIT_HOME}/zinit.zsh"
 
 
